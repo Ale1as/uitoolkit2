@@ -27,3 +27,36 @@
 .button_blue:active {
     background-color: rgb(3, 206, 255);
 }
+
+.text--title {
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+    font-size: 80px;
+    -unity-font-style: normal;
+    -unity-text-align: upper-center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.text--paragraph {
+    font-size: 36px;
+    white-space: normal;
+    align-self: flex-start;
+    align-items: auto;
+    justify-content: flex-start;
+    -unity-text-align: upper-center;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    padding-bottom: 20px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-left: 80px;
+}

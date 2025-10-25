@@ -1,0 +1,23 @@
+.Buttoncss {
+    width: 20%;
+    height: 10%;
+    font-size: 40px;
+    align-items: stretch;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.Buttoncss:hover {
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-circ;
+    scale: 1.1 1.1;
+}
+
+.Buttoncss:active {
+    background-color: rgb(255, 46, 46);
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-sine;
+}

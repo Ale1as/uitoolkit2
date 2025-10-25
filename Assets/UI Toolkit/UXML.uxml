@@ -1,0 +1,21 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/USS/samplestyle.uss?fileID=7433441132597879392&amp;guid=2b39b834f287007418939ec9f3f20fd1&amp;type=3#samplestyle" />
+    <engine:VisualElement name="Container" data-source="project://database/Assets/name.asset?fileID=11400000&amp;guid=0fc61758c2b18ea4cb9cfeafe182e87f&amp;type=2#name" style="flex-grow: 1; flex-direction: column; background-color: rgb(255, 177, 207); height: auto;">
+        <engine:VisualElement name="topPart" style="height: 10%; background-color: rgba(255, 0, 121, 0.37); align-items: center;">
+            <engine:Label text="Title" name="Title" style="font-size: 50px; align-self: center;">
+                <Bindings>
+                    <engine:DataBinding property="text" data-source-path="Health" binding-mode="ToTarget" />
+                </Bindings>
+            </engine:Label>
+        </engine:VisualElement>
+        <engine:VisualElement name="mainmenu" style="flex-grow: 0; align-items: center; width: 100%; height: 80%; align-self: auto; align-content: auto; justify-content: space-around; top: auto; position: relative;">
+            <engine:Button text="Play" name="play" class="Buttoncss" />
+            <engine:Button text="Options" name="options" class="Buttoncss" />
+            <engine:Button text="Quit" name="Exit" class="Buttoncss" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Stats" style="flex-grow: 1; font-size: 36px; -unity-text-align: middle-center;">
+            <engine:Label text="name" name="Name" />
+            <engine:Label text="health" name="Health" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
