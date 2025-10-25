@@ -1,0 +1,18 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/USS/button_uss.uss?fileID=7433441132597879392&amp;guid=84b8c23dbd448134d9bcc52a2aac0a6b&amp;type=3#button_uss" />
+    <engine:VisualElement style="flex-grow: 0; width: 100%; height: 100%; flex-direction: column; flex-wrap: nowrap; justify-content: space-evenly; align-content: flex-start; align-items: center;">
+        <engine:VisualElement style="flex-grow: 0; width: 100%; height: 50%; background-color: rgba(0, 0, 0, 0); flex-direction: row; align-content: flex-start; justify-content: space-around; align-items: flex-end;">
+            <engine:VisualElement name="yellow" style="flex-grow: 0; background-color: rgb(232, 255, 0); width: 30%; height: 100%;" />
+            <engine:VisualElement name="blue" style="flex-grow: 0; background-color: rgb(0, 234, 255); width: 30%; height: 100%;" />
+        </engine:VisualElement>
+        <engine:VisualElement style="flex-grow: 0; width: 100%; height: 50%; background-color: rgb(255, 255, 255);">
+            <engine:VisualElement style="flex-grow: 1;">
+                <engine:Label text="UI TOOLKIT" style="background-color: rgba(0, 0, 0, 0); width: auto; font-size: 80px; -unity-font-style: normal; -unity-text-align: upper-center; padding-top: 40px; padding-bottom: 40px; padding-right: 0; padding-left: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+                <engine:Label text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." style="font-size: 36px; white-space: normal; align-self: flex-start; align-items: auto; justify-content: flex-start; -unity-text-align: upper-center; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-bottom: 20px; padding-right: 80px; padding-top: 20px; padding-left: 80px;" />
+            </engine:VisualElement>
+            <engine:VisualElement style="flex-grow: 1;">
+                <engine:Button text="Button" class="button_blue" />
+            </engine:VisualElement>
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
